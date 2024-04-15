@@ -26,10 +26,14 @@ Users should be able to:
 
 ### Screenshot
 
-![Sreenshot (unfocused)](./assets/images/screenshot1.jpg)
-![Screenshot (focused)](./assets/images/screenshot2-focused.jpg)
+Blog preview card
 
-Note - Windows screenshot has removed the cursor pointer hovering over the title in screenshot 2 showing the card's focused state.
+![Sreenshot (unfocused)](./assets/images/screenshot1.jpg)
+
+Blog preview card (focused)
+
+![Screenshot (focused)](./assets/images/screenshot2-focused.jpg)
+_Note - Windows screenshot has removed the cursor pointer hovering over the title in screenshot 2 showing the card's focused state._
 
 ### Links
 
