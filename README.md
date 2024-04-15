@@ -67,7 +67,7 @@ I also learned the nesting features in pure css, and tried to make use of that i
 
 I really need to continue working with media queries and making things responsive in an effective way. I'm not sure that my eventual solution after the time spent is the best solution for responsiveness with css grid.
 
-I also want to start learning and using more css frameworks, and begin experimenting with either Sass or Tailwind.
+I also want to start learning and using more css frameworks, and begin experimenting with either Scss or Tailwind.
 
 ### Useful resources
 
