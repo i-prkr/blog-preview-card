@@ -38,7 +38,7 @@ h2 {
 
 .card {
     grid-area: 2 / 5 / span 2 / span 4;
-    background-color: antiquewhite;
+    background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
     box-shadow: 6px 6px;
     border-style: solid;
