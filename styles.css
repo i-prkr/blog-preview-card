@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(231, 203, 43);
+    font-family: Figtree;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.grid-wrapper {
+    padding-inline: 5rem;
+    display: grid;
+    grid-template-columns: repeat(12, 72px);
+    grid-template-rows: repeat(4, 240px);
+    column-gap: 2rem;
+    row-gap: 0.2rem;
+    height: 90vh;
+    width: 100%;
+}
+
+.column {
+    visibility: hidden;
+    background-color: rgba(255, 127, 80, 0.245);
+    grid-row: 1 / -1;
+}
+
+.row {
+    visibility: hidden;
+    background-color: rgba(0, 139, 139, 0.145);
+    grid-column: 1 / -1;
+}
+
+.card {
+    grid-area: 2 / 5 / span 2 / span 4;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    box-shadow: 6px 6px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px;
+
+    img {
+        display: block;
+        max-width: 100%;
+        border-radius: 10px;
+    }
+}
+
+.card:hover {
+    box-shadow: 12px 12px;
+
+    & h2 {
+        color:  rgb(231, 203, 43);
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .grid-wrapper {
+        grid-template-columns: repeat(8, 48px);
+    }
+    .card {
+        grid-area: 2 / 3 / span 2 / span 4;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .grid-wrapper {
+        grid-template-columns: repeat(6, 36px);
+    }
+    .card {
+        grid-area: 2 / 2 / span 2 / span 4;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .grid-wrapper {
+        grid-template-columns: repeat(4, 36px);
+    }
+    .card {
+        grid-area: 2 / 1 / span 2 / span 4;
+    }
+}
+
+.card-info {
+    .tag {
+        background-color: hsl(47, 88%, 63%);
+        width: fit-content;
+        padding: 6px;
+        padding-inline: 7px;
+        font-weight: bold;
+        font-size: 0.875rem;
+        border-radius: 3px;
+    }
+
+    .date {
+        padding-top: 1px;
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+
+    .blog-description {
+        color: hsl(0, 0%, 50%);
+    }
+}
+
+.avatar {
+    font-size: 0.7rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.attribution {
+    grid-column: 2 / span 4;
+    padding: 16px;
+    font-size: 0.8rem;
+    text-align: center; 
+    color: hsl(228, 45%, 44%);
+}
