@@ -62,7 +62,7 @@ In short the process was:
 
 I was able to refresh on how the css grid works, and spent a lot of time playing around with it trying to get the component to size correctly, particularly with different screen sizes. The @media queries in css is not someting I had worked with much, and so I learned alot playing around with them in combination with the css grid.
 
-I also learned the nesting features in pure css, and tried to make use of that in keeping maintable and easy to read css code.
+I also learned the nesting features in pure css, and tried to make use of that in keeping maintable and easy to read css code. Another thing I learned particularly in reponse to other feedback was understanding px and rem for font sizing, and the best practices for working with them with responsiveness and accessibility in mind.
 
 ### Continued development
 
@@ -72,8 +72,9 @@ I also want to start learning and using more css frameworks, and begin experimen
 
 ### Useful resources
 
-- [Grid Design](https://elementor.com/blog/grid-design/) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Component/Page layouts](https://ishadeed.com/article/thinking-like-a-front-end-developer/)
+- [Grid Design](https://elementor.com/blog/grid-design/) - This really helped me to understand the css gid layout in practice, and different ways to utilise the css grid pattern to create different styled pages.
+- [Component/Page layouts](https://ishadeed.com/article/thinking-like-a-front-end-developer/) - This was helpful in how to analyse different layout patterns, and being able to start to piece together from a high level different layouts.
+- [Grid Design for responsiveness](https://dev.to/jonstodle/responsive-layout-with-css-grid-part-1-grid-areas-5632) - This was a simple example that helped me in trying to determine the best way to go about responsiveness using css-grid.
 
 ## Author
 

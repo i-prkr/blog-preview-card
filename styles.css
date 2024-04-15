@@ -76,6 +76,10 @@ h2 {
     }
     .card {
         grid-area: 2 / 2 / span 2 / span 4;
+        max-height: 450px;
+    }
+    :root {
+        font-size: 90%;
     }
 }
 
@@ -85,10 +89,15 @@ h2 {
     }
     .card {
         grid-area: 2 / 1 / span 2 / span 4;
+        max-height: 450px;
+    }
+    :root {
+        font-size: 90%;
     }
 }
 
 .card-info {
+
     .tag {
         background-color: hsl(47, 88%, 63%);
         width: fit-content;
