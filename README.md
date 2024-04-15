@@ -37,8 +37,7 @@ _Note - Windows screenshot has removed the cursor pointer hovering over the titl
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Github Pages site](https://i-prkr.github.io/blog-preview-card/)
 
 ## My process
 
